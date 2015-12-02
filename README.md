@@ -13,3 +13,5 @@
 
 ## Source
 - [Project Euler](https://projecteuler.net/) - [Problem 5](https://projecteuler.net/problem=5)
+
+<a href='https://learn.co/lessons/project-euler-smallest-multiple' data-visibility='hidden'>View this lesson on Learn.co</a>
