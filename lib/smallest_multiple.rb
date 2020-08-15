@@ -8,7 +8,7 @@ def smallest_multiple(limit)
   multiple
 end
 
-def gcm(multiple, divisor)
+def gcd(multiple, divisor)
   while divisor > 0
     multiple %= divisor
     return divisor if multiple == 0
