@@ -2,7 +2,7 @@
 
 def smallest_multiple(limit)
   multiple = 1
-  (2...limit).each do |divisor|
+  (2..limit).each do |divisor|
     multiple *= divisor / gcd(multiple, divisor)
   end
   multiple
