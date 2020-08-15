@@ -15,4 +15,14 @@ class SmallestMultiple
     end
     multiple
   end
+
+  def gcd(multiple, divisor)
+    while divisor > 0
+      multiple %= divisor
+      return divisor if multiple == 0
+      divisor %= multiple
+    end
+    multiple
+  end
+
 end
