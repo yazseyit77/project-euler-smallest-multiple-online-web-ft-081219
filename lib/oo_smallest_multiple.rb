@@ -8,6 +8,6 @@ class SmallestMultiple
     @lcm = lcm
   end
 
-  def lcm 
+  def lcm
     multiple = 1
 end
