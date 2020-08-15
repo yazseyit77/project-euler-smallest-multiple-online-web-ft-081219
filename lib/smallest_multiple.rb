@@ -9,3 +9,10 @@ def smallest_multiple(limit)
 end
 
 def gcm(multiple, divisor)
+  while divisor >= 0
+    multiple %= divisor
+    return divisor if multiple == 0
+    divisor %= multiple
+  end
+  multiple
+end
