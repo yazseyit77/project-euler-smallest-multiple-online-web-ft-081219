@@ -7,5 +7,5 @@ class SmallestMultiple
     @limit = limit
     @lcm = lcm
   end
-  
+
 end
