@@ -4,7 +4,6 @@ def smallest_multiple(limit)
   multiple = 1
   (2...limit).each do |d|
     multiple *= d / gcd(multiple, d)
-  end 
+  end
   multiple
 end
-
